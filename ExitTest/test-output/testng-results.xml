@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="32" total="43" passed="9" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-01T12:48:39Z" name="Suite" finished-at="2022-05-01T12:49:28Z" duration-ms="49851">
+    <groups>
+      <group name="valid">
+        <method signature="AddToCartTest.searchProduct()[pri:0, instance:com.SeleniumExitTest.testcases.AddToCartTest@4a3631f8]" name="searchProduct" class="com.SeleniumExitTest.testcases.AddToCartTest"/>
+        <method signature="BecomeASellerPageTest.BecomeASellerPage()[pri:0, instance:com.SeleniumExitTest.testcases.BecomeASellerPageTest@6b58b9e9]" name="BecomeASellerPage" class="com.SeleniumExitTest.testcases.BecomeASellerPageTest"/>
+        <method signature="CareerPageTest.AvailableCareer()[pri:0, instance:com.SeleniumExitTest.testcases.CareerPageTest@f14a7d4]" name="AvailableCareer" class="com.SeleniumExitTest.testcases.CareerPageTest"/>
+        <method signature="ContactUsPageTest.ContactUs()[pri:0, instance:com.SeleniumExitTest.testcases.ContactUsPageTest@79c97cb]" name="ContactUs" class="com.SeleniumExitTest.testcases.ContactUsPageTest"/>
+        <method signature="GrocerryPageTest.SearchGrocerry()[pri:2, instance:com.SeleniumExitTest.testcases.GrocerryPageTest@52e7a6b2]" name="SearchGrocerry" class="com.SeleniumExitTest.testcases.GrocerryPageTest"/>
+        <method signature="GrocerrypageTest2.SearchGrocerry2()[pri:0, instance:com.SeleniumExitTest.testcases.GrocerrypageTest2@29a5f4e7]" name="SearchGrocerry2" class="com.SeleniumExitTest.testcases.GrocerrypageTest2"/>
+        <method signature="LogInTest.InValidLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" name="InValidLogIN" class="com.SeleniumExitTest.testcases.LogInTest"/>
+        <method signature="LogInTest.ValidLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" name="ValidLogIN" class="com.SeleniumExitTest.testcases.LogInTest"/>
+        <method signature="RegisterTest.RegisterLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.RegisterTest@797b0699]" name="RegisterLogIN" class="com.SeleniumExitTest.testcases.RegisterTest"/>
+        <method signature="TopOffersTest.seTopOffers()[pri:0, instance:com.SeleniumExitTest.testcases.TopOffersTest@26df6e3a]" name="seTopOffers" class="com.SeleniumExitTest.testcases.TopOffersTest"/>
+      </group> <!-- valid -->
+      <group name="include">
+        <method signature="AddToCartTest.searchProduct()[pri:0, instance:com.SeleniumExitTest.testcases.AddToCartTest@4a3631f8]" name="searchProduct" class="com.SeleniumExitTest.testcases.AddToCartTest"/>
+        <method signature="BecomeASellerPageTest.BecomeASellerPage()[pri:0, instance:com.SeleniumExitTest.testcases.BecomeASellerPageTest@6b58b9e9]" name="BecomeASellerPage" class="com.SeleniumExitTest.testcases.BecomeASellerPageTest"/>
+        <method signature="CareerPageTest.AvailableCareer()[pri:0, instance:com.SeleniumExitTest.testcases.CareerPageTest@f14a7d4]" name="AvailableCareer" class="com.SeleniumExitTest.testcases.CareerPageTest"/>
+        <method signature="ContactUsPageTest.ContactUs()[pri:0, instance:com.SeleniumExitTest.testcases.ContactUsPageTest@79c97cb]" name="ContactUs" class="com.SeleniumExitTest.testcases.ContactUsPageTest"/>
+        <method signature="GrocerryPageTest.SearchGrocerry()[pri:2, instance:com.SeleniumExitTest.testcases.GrocerryPageTest@52e7a6b2]" name="SearchGrocerry" class="com.SeleniumExitTest.testcases.GrocerryPageTest"/>
+        <method signature="GrocerrypageTest2.SearchGrocerry2()[pri:0, instance:com.SeleniumExitTest.testcases.GrocerrypageTest2@29a5f4e7]" name="SearchGrocerry2" class="com.SeleniumExitTest.testcases.GrocerrypageTest2"/>
+        <method signature="LogInTest.ValidLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" name="ValidLogIN" class="com.SeleniumExitTest.testcases.LogInTest"/>
+        <method signature="RegisterTest.RegisterLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.RegisterTest@797b0699]" name="RegisterLogIN" class="com.SeleniumExitTest.testcases.RegisterTest"/>
+        <method signature="TopOffersTest.seTopOffers()[pri:0, instance:com.SeleniumExitTest.testcases.TopOffersTest@26df6e3a]" name="seTopOffers" class="com.SeleniumExitTest.testcases.TopOffersTest"/>
+      </group> <!-- include -->
+      <group name="test">
+        <method signature="AddToCartTest.searchProduct()[pri:0, instance:com.SeleniumExitTest.testcases.AddToCartTest@4a3631f8]" name="searchProduct" class="com.SeleniumExitTest.testcases.AddToCartTest"/>
+        <method signature="BecomeASellerPageTest.BecomeASellerPage()[pri:0, instance:com.SeleniumExitTest.testcases.BecomeASellerPageTest@6b58b9e9]" name="BecomeASellerPage" class="com.SeleniumExitTest.testcases.BecomeASellerPageTest"/>
+        <method signature="CareerPageTest.AvailableCareer()[pri:0, instance:com.SeleniumExitTest.testcases.CareerPageTest@f14a7d4]" name="AvailableCareer" class="com.SeleniumExitTest.testcases.CareerPageTest"/>
+        <method signature="ContactUsPageTest.ContactUs()[pri:0, instance:com.SeleniumExitTest.testcases.ContactUsPageTest@79c97cb]" name="ContactUs" class="com.SeleniumExitTest.testcases.ContactUsPageTest"/>
+        <method signature="GrocerryPageTest.SearchGrocerry()[pri:2, instance:com.SeleniumExitTest.testcases.GrocerryPageTest@52e7a6b2]" name="SearchGrocerry" class="com.SeleniumExitTest.testcases.GrocerryPageTest"/>
+        <method signature="GrocerrypageTest2.SearchGrocerry2()[pri:0, instance:com.SeleniumExitTest.testcases.GrocerrypageTest2@29a5f4e7]" name="SearchGrocerry2" class="com.SeleniumExitTest.testcases.GrocerrypageTest2"/>
+        <method signature="LogInTest.InValidLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" name="InValidLogIN" class="com.SeleniumExitTest.testcases.LogInTest"/>
+        <method signature="LogInTest.ValidLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" name="ValidLogIN" class="com.SeleniumExitTest.testcases.LogInTest"/>
+        <method signature="RegisterTest.RegisterLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.RegisterTest@797b0699]" name="RegisterLogIN" class="com.SeleniumExitTest.testcases.RegisterTest"/>
+        <method signature="TopOffersTest.seTopOffers()[pri:0, instance:com.SeleniumExitTest.testcases.TopOffersTest@26df6e3a]" name="seTopOffers" class="com.SeleniumExitTest.testcases.TopOffersTest"/>
+      </group> <!-- test -->
+      <group name="invalid">
+        <method signature="AddToCartTest.searchProduct()[pri:0, instance:com.SeleniumExitTest.testcases.AddToCartTest@4a3631f8]" name="searchProduct" class="com.SeleniumExitTest.testcases.AddToCartTest"/>
+        <method signature="BecomeASellerPageTest.BecomeASellerPage()[pri:0, instance:com.SeleniumExitTest.testcases.BecomeASellerPageTest@6b58b9e9]" name="BecomeASellerPage" class="com.SeleniumExitTest.testcases.BecomeASellerPageTest"/>
+        <method signature="CareerPageTest.AvailableCareer()[pri:0, instance:com.SeleniumExitTest.testcases.CareerPageTest@f14a7d4]" name="AvailableCareer" class="com.SeleniumExitTest.testcases.CareerPageTest"/>
+        <method signature="ContactUsPageTest.ContactUs()[pri:0, instance:com.SeleniumExitTest.testcases.ContactUsPageTest@79c97cb]" name="ContactUs" class="com.SeleniumExitTest.testcases.ContactUsPageTest"/>
+        <method signature="GrocerryPageTest.SearchGrocerry()[pri:2, instance:com.SeleniumExitTest.testcases.GrocerryPageTest@52e7a6b2]" name="SearchGrocerry" class="com.SeleniumExitTest.testcases.GrocerryPageTest"/>
+        <method signature="GrocerrypageTest2.SearchGrocerry2()[pri:0, instance:com.SeleniumExitTest.testcases.GrocerrypageTest2@29a5f4e7]" name="SearchGrocerry2" class="com.SeleniumExitTest.testcases.GrocerrypageTest2"/>
+        <method signature="LogInTest.InValidLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" name="InValidLogIN" class="com.SeleniumExitTest.testcases.LogInTest"/>
+        <method signature="LogInTest.ValidLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" name="ValidLogIN" class="com.SeleniumExitTest.testcases.LogInTest"/>
+        <method signature="RegisterTest.RegisterLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.RegisterTest@797b0699]" name="RegisterLogIN" class="com.SeleniumExitTest.testcases.RegisterTest"/>
+        <method signature="TopOffersTest.seTopOffers()[pri:0, instance:com.SeleniumExitTest.testcases.TopOffersTest@26df6e3a]" name="seTopOffers" class="com.SeleniumExitTest.testcases.TopOffersTest"/>
+      </group> <!-- invalid -->
+      <group name="exclude">
+        <method signature="LogInTest.InValidLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" name="InValidLogIN" class="com.SeleniumExitTest.testcases.LogInTest"/>
+      </group> <!-- exclude -->
+    </groups>
+    <test started-at="2022-05-01T12:48:39Z" name="Test" finished-at="2022-05-01T12:49:28Z" duration-ms="49851">
+      <class name="com.SeleniumExitTest.testcases.BecomeASellerPageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.SeleniumExitTest.testcases.BecomeASellerPageTest@6b58b9e9]" started-at="2022-05-01T12:49:10Z" name="openBrowser" finished-at="2022-05-01T12:49:11Z" duration-ms="1466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SeleniumExitTest.testcases.BecomeASellerPageTest@6b58b9e9]" started-at="2022-05-01T12:49:11Z" name="startTest" finished-at="2022-05-01T12:49:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SeleniumExitTest.testcases.BecomeASellerPageTest.BecomeASellerPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="BecomeASellerPage()[pri:0, instance:com.SeleniumExitTest.testcases.BecomeASellerPageTest@6b58b9e9]" started-at="2022-05-01T12:49:11Z" name="BecomeASellerPage" finished-at="2022-05-01T12:49:19Z" duration-ms="7485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BecomeASellerPage -->
+        <test-method is-config="true" signature="attachscreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.testcases.BecomeASellerPageTest@6b58b9e9]" started-at="2022-05-01T12:49:19Z" name="attachscreenshot" finished-at="2022-05-01T12:49:19Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BecomeASellerPage status=SUCCESS method=BecomeASellerPageTest.BecomeASellerPage()[pri:0, instance:com.SeleniumExitTest.testcases.BecomeASellerPageTest@6b58b9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachscreenshot -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.SeleniumExitTest.testcases.BecomeASellerPageTest@6b58b9e9]" started-at="2022-05-01T12:49:19Z" name="endTest" finished-at="2022-05-01T12:49:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.SeleniumExitTest.testcases.BecomeASellerPageTest -->
+      <class name="com.SeleniumExitTest.testcases.AddToCartTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.SeleniumExitTest.testcases.AddToCartTest@4a3631f8]" started-at="2022-05-01T12:49:05Z" name="openBrowser" finished-at="2022-05-01T12:49:07Z" duration-ms="1910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="searchProduct()[pri:0, instance:com.SeleniumExitTest.testcases.AddToCartTest@4a3631f8]" started-at="2022-05-01T12:49:07Z" name="searchProduct" finished-at="2022-05-01T12:49:10Z" duration-ms="2862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SeleniumExitTest.testcases.AddToCartTest@4a3631f8]" started-at="2022-05-01T12:49:07Z" name="startTest" finished-at="2022-05-01T12:49:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SeleniumExitTest.testcases.AddToCartTest.searchProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="attachscreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.testcases.AddToCartTest@4a3631f8]" started-at="2022-05-01T12:49:10Z" name="attachscreenshot" finished-at="2022-05-01T12:49:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=AddToCartTest.searchProduct()[pri:0, instance:com.SeleniumExitTest.testcases.AddToCartTest@4a3631f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachscreenshot -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.SeleniumExitTest.testcases.AddToCartTest@4a3631f8]" started-at="2022-05-01T12:49:10Z" name="endTest" finished-at="2022-05-01T12:49:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.SeleniumExitTest.testcases.AddToCartTest -->
+      <class name="com.SeleniumExitTest.testcases.GrocerrypageTest2">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.SeleniumExitTest.testcases.GrocerrypageTest2@29a5f4e7]" started-at="2022-05-01T12:48:52Z" name="openBrowser" finished-at="2022-05-01T12:48:54Z" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SeleniumExitTest.testcases.GrocerrypageTest2@29a5f4e7]" started-at="2022-05-01T12:48:54Z" name="startTest" finished-at="2022-05-01T12:48:54Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SeleniumExitTest.testcases.GrocerrypageTest2.SearchGrocerry2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="SearchGrocerry2()[pri:0, instance:com.SeleniumExitTest.testcases.GrocerrypageTest2@29a5f4e7]" started-at="2022-05-01T12:48:54Z" name="SearchGrocerry2" finished-at="2022-05-01T12:48:55Z" duration-ms="1168" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <img class="_396cs4  _3exPp9" alt="Grocery" src="https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100"> is not clickable at point (187, 100). Other element would receive the click: <div class="_2hriZF _2rbIyg" tabindex="-1">...</div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'IN-6Y2L2J3', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\AKHILK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55684}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31d21d96748176c9ed7cff802902a2a8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img class="_396cs4  _3exPp9" alt="Grocery" src="https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100"> is not clickable at point (187, 100). Other element would receive the click: <div class="_2hriZF _2rbIyg" tabindex="-1">...</div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'IN-6Y2L2J3', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\AKHILK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55684}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31d21d96748176c9ed7cff802902a2a8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.SeleniumExitTest.testcases.GrocerrypageTest2.SearchGrocerry2(GrocerrypageTest2.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchGrocerry2 -->
+        <test-method is-config="true" signature="attachscreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.testcases.GrocerrypageTest2@29a5f4e7]" started-at="2022-05-01T12:48:55Z" name="attachscreenshot" finished-at="2022-05-01T12:48:55Z" duration-ms="290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchGrocerry2 status=FAILURE method=GrocerrypageTest2.SearchGrocerry2()[pri:0, instance:com.SeleniumExitTest.testcases.GrocerrypageTest2@29a5f4e7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachscreenshot -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.SeleniumExitTest.testcases.GrocerrypageTest2@29a5f4e7]" started-at="2022-05-01T12:48:55Z" name="endTest" finished-at="2022-05-01T12:48:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.SeleniumExitTest.testcases.GrocerrypageTest2 -->
+      <class name="com.SeleniumExitTest.testcases.RegisterTest">
+        <test-method is-config="true" signature="initializeWebdriver()[pri:0, instance:com.SeleniumExitTest.testcases.RegisterTest@797b0699]" started-at="2022-05-01T12:48:37Z" name="initializeWebdriver" finished-at="2022-05-01T12:48:38Z" duration-ms="1771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.SeleniumExitTest.testcases.RegisterTest@797b0699]" started-at="2022-05-01T12:48:38Z" name="setExtent" finished-at="2022-05-01T12:48:39Z" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.SeleniumExitTest.testcases.RegisterTest@797b0699]" started-at="2022-05-01T12:48:39Z" name="openBrowser" finished-at="2022-05-01T12:48:42Z" duration-ms="3308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SeleniumExitTest.testcases.RegisterTest@797b0699]" started-at="2022-05-01T12:48:42Z" name="startTest" finished-at="2022-05-01T12:48:42Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SeleniumExitTest.testcases.RegisterTest.RegisterLogIN() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="RegisterLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.RegisterTest@797b0699]" started-at="2022-05-01T12:48:42Z" name="RegisterLogIN" finished-at="2022-05-01T12:48:52Z" duration-ms="10123" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='_3wJI0x']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'IN-6Y2L2J3', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\AKHILK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55684}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31d21d96748176c9ed7cff802902a2a8
+*** Element info: {Using=xpath, value=//div[@class='_3wJI0x']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='_3wJI0x']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'IN-6Y2L2J3', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\AKHILK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55684}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31d21d96748176c9ed7cff802902a2a8
+*** Element info: {Using=xpath, value=//div[@class='_3wJI0x']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.SeleniumExitTest.testcases.RegisterTest.RegisterLogIN(RegisterTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterLogIN -->
+        <test-method is-config="true" signature="attachscreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.testcases.RegisterTest@797b0699]" started-at="2022-05-01T12:48:52Z" name="attachscreenshot" finished-at="2022-05-01T12:48:52Z" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterLogIN status=FAILURE method=RegisterTest.RegisterLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.RegisterTest@797b0699] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachscreenshot -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.SeleniumExitTest.testcases.RegisterTest@797b0699]" started-at="2022-05-01T12:48:52Z" name="endTest" finished-at="2022-05-01T12:48:52Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.SeleniumExitTest.testcases.RegisterTest@797b0699]" started-at="2022-05-01T12:49:28Z" name="closeBrowser" finished-at="2022-05-01T12:49:29Z" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.SeleniumExitTest.testcases.RegisterTest@797b0699]" started-at="2022-05-01T12:49:29Z" name="endReport" finished-at="2022-05-01T12:49:29Z" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.SeleniumExitTest.testcases.RegisterTest -->
+      <class name="com.SeleniumExitTest.testcases.GrocerryPageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.SeleniumExitTest.testcases.GrocerryPageTest@52e7a6b2]" started-at="2022-05-01T12:49:25Z" name="openBrowser" finished-at="2022-05-01T12:49:27Z" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SeleniumExitTest.testcases.GrocerryPageTest@52e7a6b2]" started-at="2022-05-01T12:49:27Z" name="startTest" finished-at="2022-05-01T12:49:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SeleniumExitTest.testcases.GrocerryPageTest.SearchGrocerry()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="SearchGrocerry()[pri:2, instance:com.SeleniumExitTest.testcases.GrocerryPageTest@52e7a6b2]" started-at="2022-05-01T12:49:27Z" name="SearchGrocerry" finished-at="2022-05-01T12:49:28Z" duration-ms="1573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchGrocerry -->
+        <test-method is-config="true" signature="attachscreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.testcases.GrocerryPageTest@52e7a6b2]" started-at="2022-05-01T12:49:28Z" name="attachscreenshot" finished-at="2022-05-01T12:49:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchGrocerry status=SUCCESS method=GrocerryPageTest.SearchGrocerry()[pri:2, instance:com.SeleniumExitTest.testcases.GrocerryPageTest@52e7a6b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachscreenshot -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.SeleniumExitTest.testcases.GrocerryPageTest@52e7a6b2]" started-at="2022-05-01T12:49:28Z" name="endTest" finished-at="2022-05-01T12:49:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.SeleniumExitTest.testcases.GrocerryPageTest -->
+      <class name="com.SeleniumExitTest.testcases.LogInTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:48:55Z" name="openBrowser" finished-at="2022-05-01T12:48:56Z" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:48:56Z" name="startTest" finished-at="2022-05-01T12:48:56Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SeleniumExitTest.testcases.LogInTest.InValidLogIN()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="InValidLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:48:56Z" name="InValidLogIN" finished-at="2022-05-01T12:48:57Z" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidLogIN -->
+        <test-method is-config="true" signature="attachscreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:48:57Z" name="attachscreenshot" finished-at="2022-05-01T12:48:57Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InValidLogIN status=SUCCESS method=LogInTest.InValidLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachscreenshot -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:48:57Z" name="endTest" finished-at="2022-05-01T12:48:57Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:48:57Z" name="openBrowser" finished-at="2022-05-01T12:48:58Z" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:48:58Z" name="startTest" finished-at="2022-05-01T12:48:58Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SeleniumExitTest.testcases.LogInTest.InValidLogINWithBlank()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="InValidLogINWithBlank()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:48:58Z" name="InValidLogINWithBlank" finished-at="2022-05-01T12:48:58Z" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidLogINWithBlank -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:48:58Z" name="endTest" finished-at="2022-05-01T12:48:58Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="attachscreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:48:58Z" name="attachscreenshot" finished-at="2022-05-01T12:48:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InValidLogINWithBlank status=SUCCESS method=LogInTest.InValidLogINWithBlank()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachscreenshot -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:48:58Z" name="openBrowser" finished-at="2022-05-01T12:48:59Z" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:48:59Z" name="startTest" finished-at="2022-05-01T12:48:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SeleniumExitTest.testcases.LogInTest.ValidLogIN()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="ValidLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:48:59Z" name="ValidLogIN" finished-at="2022-05-01T12:49:00Z" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogIN -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:49:00Z" name="endTest" finished-at="2022-05-01T12:49:00Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="attachscreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed]" started-at="2022-05-01T12:49:00Z" name="attachscreenshot" finished-at="2022-05-01T12:49:00Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLogIN status=SUCCESS method=LogInTest.ValidLogIN()[pri:0, instance:com.SeleniumExitTest.testcases.LogInTest@5a37d3ed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachscreenshot -->
+      </class> <!-- com.SeleniumExitTest.testcases.LogInTest -->
+      <class name="com.SeleniumExitTest.testcases.ContactUsPageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.SeleniumExitTest.testcases.ContactUsPageTest@79c97cb]" started-at="2022-05-01T12:49:00Z" name="openBrowser" finished-at="2022-05-01T12:49:01Z" duration-ms="1649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SeleniumExitTest.testcases.ContactUsPageTest@79c97cb]" started-at="2022-05-01T12:49:01Z" name="startTest" finished-at="2022-05-01T12:49:01Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SeleniumExitTest.testcases.ContactUsPageTest.ContactUs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="ContactUs()[pri:0, instance:com.SeleniumExitTest.testcases.ContactUsPageTest@79c97cb]" started-at="2022-05-01T12:49:01Z" name="ContactUs" finished-at="2022-05-01T12:49:02Z" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="attachscreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.testcases.ContactUsPageTest@79c97cb]" started-at="2022-05-01T12:49:02Z" name="attachscreenshot" finished-at="2022-05-01T12:49:02Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUs status=SUCCESS method=ContactUsPageTest.ContactUs()[pri:0, instance:com.SeleniumExitTest.testcases.ContactUsPageTest@79c97cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachscreenshot -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.SeleniumExitTest.testcases.ContactUsPageTest@79c97cb]" started-at="2022-05-01T12:49:02Z" name="endTest" finished-at="2022-05-01T12:49:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.SeleniumExitTest.testcases.ContactUsPageTest -->
+      <class name="com.SeleniumExitTest.testcases.CareerPageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.SeleniumExitTest.testcases.CareerPageTest@f14a7d4]" started-at="2022-05-01T12:49:19Z" name="openBrowser" finished-at="2022-05-01T12:49:20Z" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SeleniumExitTest.testcases.CareerPageTest@f14a7d4]" started-at="2022-05-01T12:49:20Z" name="startTest" finished-at="2022-05-01T12:49:20Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SeleniumExitTest.testcases.CareerPageTest.AvailableCareer() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="AvailableCareer()[pri:0, instance:com.SeleniumExitTest.testcases.CareerPageTest@f14a7d4]" started-at="2022-05-01T12:49:20Z" name="AvailableCareer" finished-at="2022-05-01T12:49:25Z" duration-ms="5407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AvailableCareer -->
+        <test-method is-config="true" signature="attachscreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.testcases.CareerPageTest@f14a7d4]" started-at="2022-05-01T12:49:25Z" name="attachscreenshot" finished-at="2022-05-01T12:49:25Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AvailableCareer status=SUCCESS method=CareerPageTest.AvailableCareer()[pri:0, instance:com.SeleniumExitTest.testcases.CareerPageTest@f14a7d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachscreenshot -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.SeleniumExitTest.testcases.CareerPageTest@f14a7d4]" started-at="2022-05-01T12:49:25Z" name="endTest" finished-at="2022-05-01T12:49:25Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.SeleniumExitTest.testcases.CareerPageTest -->
+      <class name="com.SeleniumExitTest.testcases.TopOffersTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.SeleniumExitTest.testcases.TopOffersTest@26df6e3a]" started-at="2022-05-01T12:49:02Z" name="openBrowser" finished-at="2022-05-01T12:49:04Z" duration-ms="1472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="seTopOffers()[pri:0, instance:com.SeleniumExitTest.testcases.TopOffersTest@26df6e3a]" started-at="2022-05-01T12:49:04Z" name="seTopOffers" finished-at="2022-05-01T12:49:05Z" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seTopOffers -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SeleniumExitTest.testcases.TopOffersTest@26df6e3a]" started-at="2022-05-01T12:49:04Z" name="startTest" finished-at="2022-05-01T12:49:04Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SeleniumExitTest.testcases.TopOffersTest.seTopOffers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="attachscreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumExitTest.testcases.TopOffersTest@26df6e3a]" started-at="2022-05-01T12:49:05Z" name="attachscreenshot" finished-at="2022-05-01T12:49:05Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=seTopOffers status=SUCCESS method=TopOffersTest.seTopOffers()[pri:0, instance:com.SeleniumExitTest.testcases.TopOffersTest@26df6e3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachscreenshot -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.SeleniumExitTest.testcases.TopOffersTest@26df6e3a]" started-at="2022-05-01T12:49:05Z" name="endTest" finished-at="2022-05-01T12:49:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.SeleniumExitTest.testcases.TopOffersTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+			
+			 <class name="com.SeleniumExitTest.testcases.RegisterTest" />
+              <class name="com.SeleniumExitTest.testcases.LogInTest" />
+            
+
+			<class name="com.SeleniumExitTest.testcases.TopOffersTest" />
+			<class name="com.SeleniumExitTest.testcases.AddToCartTest" />
+
+			<class name="com.SeleniumExitTest.testcases.BecomeASellerPageTest" />
+           
+
+			<class name="com.SeleniumExitTest.testcases.CareerPageTest"/>
+            <class name="com.SeleniumExitTest.testcases.GrocerryPageTest"/>
+             <class name="com.SeleniumExitTest.testcases.GrocerrypageTest2"/>
+
+           
+            <class name="com.SeleniumExitTest.testcases.ContactUsPageTest" />
+           
+            
+             
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
